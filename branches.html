@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Филиалы — AURA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="header__logo">AURA<span>.</span></a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a href="index.html" class="header__link">Главная</a></li>
+          <li><a href="about.html" class="header__link">О компании</a></li>
+          <li><a href="branches.html" class="header__link header__link--active">Филиалы</a></li>
+          <li><a href="achievements.html" class="header__link">Достижения</a></li>
+          <li><a href="blog.html" class="header__link">Блог</a></li>
+          <li><a href="delivery.html" class="header__link">Доставка и цены</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+78005553535" class="header__phone">+7 (800) 555-35-35</a>
+      <button type="button" class="burger-btn" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-drawer">
+        <span class="burger-btn__line"></span><span class="burger-btn__line"></span><span class="burger-btn__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="drawer" id="mobile-drawer" aria-hidden="true" role="dialog" aria-label="Мобильное меню">
+    <div class="drawer__header">
+      <div class="drawer__logo">AURA<span>.</span></div>
+      <button type="button" class="drawer__close" aria-label="Закрыть меню">&times;</button>
+    </div>
+    <nav class="drawer__nav">
+      <ul class="drawer__menu">
+        <li><a href="index.html" class="drawer__link">Главная</a></li>
+        <li><a href="about.html" class="drawer__link">О компании</a></li>
+        <li><a href="branches.html" class="drawer__link drawer__link--active">Филиалы</a></li>
+        <li><a href="achievements.html" class="drawer__link">Достижения</a></li>
+        <li><a href="blog.html" class="drawer__link">Блог</a></li>
+        <li><a href="delivery.html" class="drawer__link">Доставка и цены</a></li>
+        <li><a href="privacy.html" class="drawer__link">Конфиденциальность</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title fade-in">Сеть наши филиалов</h1>
+        <p class="page-header__subtitle fade-in">4 локации в премиальных районах города</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid--2">
+        <!-- Карточка 1 -->
+        <article class="branch-card card fade-in">
+          <h3>AURA Центр — Пречистенка</h3>
+          <p><strong>Адрес:</strong> г. Москва, ул. Пречистенка, д. 12</p>
+          <p><strong>Телефон:</strong> +7 (495) 111-22-33</p>
+          <p><strong>Часы работы:</strong> 09:00 - 21:00 ежедневно</p>
+          <div class="map-wrap map-wrap--sm">
+            <iframe title="Карта Пречистенка" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0000000000000000000000000000000000000000000000000000000000000000&amp;source=constructor" width="100%" height="200" frameborder="0"></iframe>
+          </div>
+        </article>
+
+        <!-- Карточка 2 -->
+        <article class="branch-card card fade-in">
+          <h3>AURA Сити — Пресненская наб.</h3>
+          <p><strong>Адрес:</strong> г. Москва, Пресненская наб., д. 8, стр. 1</p>
+          <p><strong>Телефон:</strong> +7 (495) 222-33-44</p>
+          <p><strong>Часы работы:</strong> 10:00 - 22:00 ежедневно</p>
+          <div class="map-wrap map-wrap--sm">
+            <iframe title="Карта Москва Сити" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0000000000000000000000000000000000000000000000000000000000000000&amp;source=constructor" width="100%" height="200" frameborder="0"></iframe>
+          </div>
+        </article>
+
+        <!-- Карточка 3 -->
+        <article class="branch-card card fade-in">
+          <h3>AURA Запад — Кутузовский</h3>
+          <p><strong>Адрес:</strong> г. Москва, Кутузовский проспект, д. 26</p>
+          <p><strong>Телефон:</strong> +7 (495) 333-44-55</p>
+          <p><strong>Часы работы:</strong> 09:00 - 21:00 ежедневно</p>
+          <div class="map-wrap map-wrap--sm">
+            <iframe title="Карта Кутузовский" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0000000000000000000000000000000000000000000000000000000000000000&amp;source=constructor" width="100%" height="200" frameborder="0"></iframe>
+          </div>
+        </article>
+
+        <!-- Карточка 4 -->
+        <article class="branch-card card fade-in">
+          <h3>AURA Север — Ленинградский</h3>
+          <p><strong>Адрес:</strong> г. Москва, Ленинградский проспект, д. 36</p>
+          <p><strong>Телефон:</strong> +7 (495) 444-55-66</p>
+          <p><strong>Часы работы:</strong> 09:00 - 21:00 ежедневно</p>
+          <div class="map-wrap map-wrap--sm">
+            <iframe title="Карта Ленинградский" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0000000000000000000000000000000000000000000000000000000000000000&amp;source=constructor" width="100%" height="200" frameborder="0"></iframe>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <p>&copy; 2026 AURA Center. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
