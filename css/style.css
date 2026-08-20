@@ -230,7 +230,7 @@ button, input, select, textarea {
 
 .header__menu {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .header__link {
@@ -239,6 +239,7 @@ button, input, select, textarea {
   color: var(--color-text);
   position: relative;
   padding: 4px 0;
+  white-space: nowrap;
 }
 
 .header__link::after {
