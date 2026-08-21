@@ -422,6 +422,9 @@ button, input, select, textarea {
 
 .promo-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
 }
 
 .promo-card__badge {
@@ -639,9 +642,6 @@ button, input, select, textarea {
   background: #EEE; 
 }
 
-/* ==========================================================================
-   ТАБЛИЦЫ И ТАЙМЛАЙН
-   ========================================================================== */
 .page-header { 
   background-color: #F0EADF; 
   padding: 60px 0; 
@@ -715,9 +715,6 @@ button, input, select, textarea {
   margin-bottom: 5px; 
 }
 
-/* ==========================================================================
-   COOKIE BANNER
-   ========================================================================== */
 .cookie-banner { 
   position: fixed; 
   bottom: 20px; 
