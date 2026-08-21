@@ -262,7 +262,7 @@ button, input, select, textarea {
 }
 
 .burger-btn {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 28px;
